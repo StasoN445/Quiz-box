@@ -94,7 +94,7 @@ footer {
   margin-left: 0;
 }
 .hello__title {
-  font-size: 65px;
+  font-size: 60px;
   font-weight: bold;
   font-style: normal;
   line-height: 1.1;
@@ -130,7 +130,7 @@ footer {
 .offers__item {
   display: inline-block;
   vertical-align: middle;
-  width: 328px;
+  width: 360px;
   margin-right: 25px;
   background: #ffffff;
   border-radius: 5px;
@@ -166,7 +166,7 @@ footer {
   position:absolute;
 }
 .offets__img {
-  width: 328px;
+  width: 360px;
 }
 .offers__feature-icon {
   Width: 26px;
