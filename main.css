@@ -90,7 +90,6 @@ footer {
 .hello {
   position: relative;
   width: 680px;
-  left: 234px;
   margin-bottom: 173px;
   margin-left: 0;
 }
@@ -124,7 +123,6 @@ footer {
 }
 .offers {
   position: relative;
-  left: 234px;
   color: #000000;
   margin-left: 0px;
   margin-bottom: 112px;
@@ -138,6 +136,10 @@ footer {
   background: #ffffff;
   border-radius: 5px;
   min-height: 410px;
+}
+.maincontent {
+  width: 1200px;
+  margin: 0 auto;
 }
 .offers__list {
   display: inline-block;
