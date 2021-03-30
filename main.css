@@ -11,6 +11,10 @@ body {
   margin: 0 auto;
   width: 1200px;
 }
+section {
+  margin: 0 auto;
+  width: 1200px;
+}
 a {
  color: inherit; 
 }
@@ -28,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 .menu__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 50px;
+  margin-right: 52px;
 }
 .menu__item:last-child {
   margin-right: 0;
@@ -47,6 +51,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
   font-style: normal;
   text-decoration-line: underline;
+  margin-top: -4px;
 }
 header {
   height: 120px;
@@ -61,8 +66,8 @@ header {
 }
 .menu {
   position: absolute;
-  top: 37px;
-  left: 384px;
+  top: 39px;
+  left: 382px;
 }
 .contacts {
   position: absolute;
@@ -86,27 +91,30 @@ footer {
   position: relative;
   width: 680px;
   left: 234px;
-  margin-bottom: 189px;
+  margin-bottom: 173px;
+  margin-left: 0;
 }
 .hello__title {
   font-size: 55px;
   font-weight: bold;
   font-style: normal;
   line-height: 1.1;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .hello__text {
   font-size: 20px;
-  margin-bottom: 81px;
+  margin-bottom: 64px;
 }
 .button {
   background: #8F00FF;
   border-radius: 5px;
-  padding: 18px 40px;
+  padding: 17px 38px;
   color: #ffffff;
   font-weight: bolder;
   text-transform: uppercase;
   text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
 }
 .title {
   font-size: 36px;
@@ -118,6 +126,8 @@ footer {
   position: relative;
   left: 234px;
   color: #000000;
+  margin-left: 0px;
+  margin-bottom: 112px;
 }
 .offers__item {
   display: inline-block;
@@ -127,9 +137,13 @@ footer {
   margin-right: 25px;
   background: #ffffff;
   border-radius: 5px;
+  min-height: 410px;
 }
 .offers__list {
   display: inline-block;
+}
+.offers__features {
+  height: 273px;
 }
 .offers__feature-icon {
   width: 328px;
@@ -145,8 +159,6 @@ footer {
   position: absolute;
   top: 256px;
 }
-.offers__content {
-}
 .offers__icon {
   left: 300px;
   top: 4px;
@@ -161,6 +173,20 @@ footer {
   top: 301px;
   position: absolute;
   left: 23px;
+}
+.button__offers {
+  background: #8F00FF;
+  border-radius: 5px;
+  padding: 16px 27px;
+  color: #ffffff;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  position: relative;
+  top: 200px;
+  left: 24px;
 }
 .offers__feature-text {
   top: 304px;
@@ -189,7 +215,7 @@ footer {
   font-size: 14px;
   line-height: 19px;
 }
-.button-question {
+.button__question {
   position: absolute;
     background: #ffffff;
     border-radius: 5px;
