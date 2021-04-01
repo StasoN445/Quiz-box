@@ -116,7 +116,7 @@ footer {
   width: 362px;
 }
 .offers__content {
-  padding: 33px 26px;
+  padding: 0px 20px;
 }
 .offers__item:last-child {
   margin-right: 0px;
@@ -152,7 +152,7 @@ footer {
   margin-bottom: 24px;
 }
 .offers__time-img {
-  margin-left: 4px;
+  margin-left: 5px;
   margin-right: 2px;
 }
 .offers_time-text {
@@ -219,11 +219,11 @@ footer {
   color: #ffffff;
 }
 .title__game {
-  font-size: 36px;
+  font-size: 38px;
   position: relative;
-  margin-bottom: 46px;
+  margin-bottom: 52px;
   color: #ffffff;
-  line-height: 49px;
+  line-height: 48px;
 }
 .back__png {
   background: #010101;
@@ -251,7 +251,16 @@ footer {
   width: 360px;
 }
 .button__offers {
-  
+  background: #8F00FF;
+  border-radius: 5px;
+  padding: 19px 33px;
+  color: #ffffff;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
 }
 .button__question {
   position: absolute;
@@ -270,12 +279,16 @@ footer {
 
 }
 .game__item {
-  width: 595px;
-  display:inline-block;
-  vertical-align: top;
-  position: relative; 
-  border-radius: 5px;
-  overflow: hidden;
+    width: 554px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 22px;
+}
+.game_item:last-child {
+  margin-right: 0px;
 }
 .game__img {
   display: block;
@@ -284,19 +297,20 @@ footer {
   object-fit: cover;
 }
 .game {
-  margin-bottom: 10px;
+  margin-bottom: 148px;
 }
 .game__info {
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 25px 30px;
-  min-height: 76px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 17px 29px 6px;
+    min-height: 76px;
+    margin-bottom: 6px;
 }
 .game__date {
   font-size: 14px;
-  line-height: 21px;
+  line-height: 45px;
   margin-bottom: 12px;
 }
 .game__name {
@@ -314,14 +328,20 @@ footer {
 }
 .pagination {
   text-align: center;
-
+}
+.pagination__list {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -10px;
 }
 .pagination__info, .pagination__list {
   display: inline-block;
   vertical-align: middle;
 }
 .pagination__info {
-  margin-right: 25px;
+    position: relative;
+    right: 33px;
+}
 }
 .paginator__item {
   display: inline-block;
@@ -344,28 +364,28 @@ footer {
   content: "";
   display: inline-block;
   vertical-align: top;
-  width: 499px;
-  height: 505px;
+  width: 484px;
+  height: 500px;
   background: url(./img/kviz_pliz__nizhnii_novgorod_1_qg_large\ 1.png) center center/ cover no-repeat;
   border-radius: 5px;
 }
 .about__desc {
-  padding: 80px 98px;
-  display: inline-block;
-  vertical-align: top;
-  width: 785px;
-  min-height: 455px;
-  margin-left: -290px;
-  margin-top: 117px;
-  border-radius: 5px;
-  position: relative;
+    padding: 75px 98px;
+    display: inline-block;
+    vertical-align: top;
+    width: 785px;
+    min-height: 455px;
+    margin-left: -236px;
+    margin-top: 19px;
+    border-radius: 5px;
+    position: relative;
 }
 .about__info {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0; 
-  padding: 70px 202px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 70px 180px;
 }
 .about__title {
   font-size: 36px;
