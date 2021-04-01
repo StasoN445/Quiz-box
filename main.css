@@ -261,7 +261,6 @@ footer {
   display: inline-block;
   font-size: 13px;
 }
-}
 .button__question {
   position: absolute;
     background: #ffffff;
@@ -341,7 +340,6 @@ footer {
 .pagination__info {
     position: relative;
     right: 33px;
-}
 }
 .paginator__item {
   display: inline-block;
