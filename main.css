@@ -36,8 +36,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 p {
-  margin-top: 0;
-  color: #303030;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 21px;
+    color: #303030;
+    margin-bottom: 25px;
 
 }
 .menu__item {
@@ -97,14 +100,19 @@ footer {
   font-size: 36px;
   line-height: 49px;;
   color: #ffffff;
-  margin-bottom: 51px;
+  margin-bottom: 50px;
+}
+.title__img {
+  position: absolute;
+  left: 343px;
+  top: 789px;
 }
 .offers__item {
   min-height: 449px;
   background: #FFFFFF;
   border-radius: 5px;
   display: inline-block;
-  margin-right: 27px;
+  margin-right: 21px;
   width: 362px;
 }
 .offers__content {
@@ -140,8 +148,12 @@ footer {
   color: #000000;
   font-weight: bold;
   font-size: 24px;
-  line-height: 33px;
-  margin-bottom: 23px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.offers__time-img {
+  margin-left: 4px;
+  margin-right: 2px;
 }
 .offers_time-text {
     color: #666666;
@@ -151,10 +163,11 @@ footer {
 .offers_times {
   display: inline-block;
   vertical-align: top;
-  width: 273px;
+  width: 325px;
+  margin-bottom: 18px;
 }
 .offers__time-info {
-  width: 133px;
+  width: 160px;
   position: relative;
   display: inline-block;
   vertical-align: top;
@@ -174,7 +187,7 @@ footer {
 .hello {
   position: relative;
   width: 680px;
-  margin-bottom: 186px;
+  margin-bottom: 193px;
   margin-left: 0;
 }
 .hello__title {
@@ -238,18 +251,7 @@ footer {
   width: 360px;
 }
 .button__offers {
-  background: #8F00FF;
-  border-radius: 5px;
-  padding: 18px 33px;
-  color: #ffffff;
-  font-weight: bolder;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 13px;
-  position: relative;
-  top: 220px;
-  left: 21px;
+  
 }
 .button__question {
   position: absolute;
