@@ -92,6 +92,9 @@ header {
 footer {
   position: relative;
 }
+.section__about {
+  margin-bottom: 53px;
+}
 .section {
   margin-bottom: 127px;
 }
@@ -367,7 +370,7 @@ footer {
     padding: 75px 98px;
     display: inline-block;
     vertical-align: top;
-    width: 785px;
+    width: 946px;
     min-height: 455px;
     margin-left: -236px;
     margin-top: 19px;
@@ -379,27 +382,25 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 193px 180px;
-    width: 885px;
+    padding: 143px 180px;
+    width: 883px;
 }
 .about__desc-info{
-  
+    font-size: 16px;
+    line-height: 27px;
+    min-height: 133px;
 }
 .about__title {
-  font-size: 36px;
-  line-height: 49px;
-  font-weight: bold;
-  margin-bottom: 37px;
+    font-size: 36px;
+    line-height: 49px;
+    font-weight: bold;
+    margin-bottom: 37px;
 }
 .about__desc-text {
   font-size: 16px;
-  line-height: 27px;
+  line-height: 29px;
   margin-bottom: 43px;
-  width: 524px;
-}
-.about__desc-text p {
-  margin-bottom: 20px;
-  color: #FFFFFF;
+  width: 501px;
 }
 .about__desc-text p:last-child {
   margin-bottom: 0;
