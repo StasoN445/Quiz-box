@@ -379,8 +379,11 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 124px 180px;
+    padding: 193px 180px;
     width: 885px;
+}
+.about__desc-info{
+  
 }
 .about__title {
   font-size: 36px;
