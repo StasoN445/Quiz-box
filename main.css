@@ -76,12 +76,12 @@ header {
   display: block;
   position: absolute;
   left: 0px;
-  top: 37px;
+  top: 36px;
 }
 .menu {
   position: absolute;
-  top: 39px;
-  left: 419px;
+  top: 37px;
+    left: 419px;
 }
 .contacts {
   position: absolute;
@@ -93,7 +93,7 @@ footer {
   position: relative;
 }
 .section__about {
-  margin-bottom: 53px;
+  margin-bottom: -7px;
 }
 .section {
   margin-bottom: 127px;
@@ -175,9 +175,9 @@ footer {
   margin-right: 0;
 }
 .network {
+  top: 49px;
   position: absolute;
-  top: 34px;
-  left: 710px;
+  left: 694px;
 }
 .network__item {
   display: inline-block;
@@ -367,7 +367,7 @@ footer {
   border-radius: 5px;
 }
 .about__desc {
-    padding: 75px 98px;
+    padding: 64px 98px;
     display: inline-block;
     vertical-align: top;
     width: 946px;
@@ -382,13 +382,14 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 143px 180px;
+    padding: 122px 180px;
     width: 883px;
 }
 .about__desc-info{
     font-size: 16px;
     line-height: 27px;
     min-height: 133px;
+    color: #FFFFFF;
 }
 .about__title {
     font-size: 36px;
@@ -440,4 +441,21 @@ footer {
 .main-page-wrapper {
   background: url("./img/фон1.png") center top no-repeat, url("./img/фон2.png") center bottom 168px no-repeat; 
   
+}
+.logo__footer {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 51px;
+}
+.menu__footer {
+    position: absolute;
+    top: 53px;
+    left: 287px;
+}
+.contacts__footer {
+  position: absolute;
+  top: 45px;
+  left: 949px;
+  text-align: right;
 }
