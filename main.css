@@ -101,11 +101,7 @@ footer {
   line-height: 49px;;
   color: #ffffff;
   margin-bottom: 50px;
-}
-.title__img {
-  position: absolute;
-  left: 343px;
-  top: 789px;
+  display: inline-block;
 }
 .offers__item {
   min-height: 449px;
