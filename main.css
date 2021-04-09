@@ -389,11 +389,11 @@ header {
 .pagination__list {
   display: flex;
   align-items: center;
-  margin-right: 33px;
+  margin-right: 8px;
 }
 .pagination__info {
     position: relative;
-    right: 31px;
+    right: 27px;
 }
 .paginator__item {
   text-align: center;
@@ -576,10 +576,10 @@ header {
 .page-content {
   background: #F2F2F2;
   color: #303030;
-  padding: 63px 0;
+  padding: 97px 0;
 }
 .services {
-  margin-bottom: 69px;
+  margin-bottom: 48px;
 }
 .service {
   display: flex;
@@ -632,7 +632,8 @@ header {
   flex-wrap: wrap;
 }
 .partners__item {
-  margin-left: 46px;
+  margin-left: 44px;
+  margin-bottom: 21px;
 }
 .partners__item:nth-child(4n + 1) {
   margin-left: 0;
@@ -640,7 +641,7 @@ header {
 .partners__link {
   text-decoration: none;
   display: flex;
-  width: 270px;
+  width: 249px;
   height: 100px;
   align-items: center;
   justify-content: center;
