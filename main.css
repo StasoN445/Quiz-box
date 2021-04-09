@@ -56,6 +56,9 @@ p {
     margin-bottom: 25px;
 
 }
+.menu__container {
+  margin-bottom: 15px;
+}
 .menu__item {
   display: inline-block;
   vertical-align: middle;
@@ -99,11 +102,11 @@ header {
 }
 .header__col--align--right {
   justify-content: flex-end;
-  margin-right: 129px;
+  margin-right: 62px;
 }
 .logo {
   display: block;
-  margin-right: 207px;
+  margin-right: 261px;
 }
 .contacts {
   text-align: right;
@@ -204,7 +207,7 @@ header {
 }
 .hello {
   position: relative;
-  width: 48%;
+  width: 52%;
   margin-bottom: 188px;
   margin-left: 0; 
 }
@@ -213,7 +216,8 @@ header {
   font-weight: bold;
   font-style: normal;
   line-height: 1.1;
-  margin-bottom: 20px;
+  margin-bottom: 9px;
+  padding: 10px 0;
 }
 .hello__text {
   font-size: 21px;
@@ -473,8 +477,8 @@ header {
   display: flex;
 }
 .contacts__info {
-  font-size: 11px;
-  line-height: 20px;
+  font-size: 13px;
+  line-height: 11px;
   color: #9A9A9A;
   text-decoration: none;
   display: flex;
