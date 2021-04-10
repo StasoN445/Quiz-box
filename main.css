@@ -511,7 +511,7 @@ header {
   height: 132px;
 }
 .main-page-wrapper {
-  background: url("./img/фон1.png") center top no-repeat, url("./img/фон2.png") center bottom 168px no-repeat; 
+  background: url("./img/1.png") center top no-repeat, url("./img/2.png") center bottom 168px no-repeat; 
   
 }
 .logo__footer {
