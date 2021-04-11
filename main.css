@@ -118,7 +118,9 @@ header {
   margin-bottom: 127px;
 }
 .section__item {
-  
+  display: flex;
+  align-items: end;
+  width: 33%;
 }
 .section__title {
   font-weight: bold;
@@ -126,7 +128,6 @@ header {
   line-height: 49px;;
   color: #ffffff;
   margin-bottom: 50px;
-  display: inline-block;
 }
 .offers {
   display: flex;
