@@ -117,6 +117,9 @@ header {
 .section {
   margin-bottom: 127px;
 }
+.section__item {
+  
+}
 .section__title {
   font-weight: bold;
   font-size: 36px;
