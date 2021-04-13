@@ -63,7 +63,7 @@ p {
   margin: 0 auto;
 }
 .main-page-wrapper {
-  background: url("/img/1.png") center top no-repeat, url("/img/2.png") center bottom 168px no-repeat; 
+  background: url("../img/1.png") center top no-repeat, url("../img/2.png") center bottom 168px no-repeat; 
 }
 .odders__text {
   top: 371px;
