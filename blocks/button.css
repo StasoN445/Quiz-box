@@ -1,0 +1,69 @@
+.button {
+  cursor: pointer;
+  background: #fff;
+  border-radius: 5px;
+  padding: 19px 41px;
+  color: #8F00FF;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border: 1px solid #8F00FF
+  
+}
+.button:hover {
+  background: #8F00FF;
+  color: #FFFFFF;
+}
+.button__offers {
+  background: #8F00FF;
+  border-radius: 5px;
+  padding: 19px 33px;
+  color: #ffffff;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 13px;
+  display: flex;
+  width: 42%;
+  margin-bottom: 28px;
+  margin-top: auto;
+}
+.button__question {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 14px 25px;
+    color: #8F00FF;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    top: 429px;
+    width: 41px;
+    height: 12px;
+    left: 22px;
+    font-size: 13px;
+}
+.button--color--black:hover{
+  color: #2B2B2B;
+}
+.form__button {
+  margin-right: 17px;
+}
+.form__button:last-child {
+  margin-right: 0px;
+}
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+}
+.button--color--black {
+  background: #2B2B2B;
+  color: #FFFFFF;
+  border: none
+}
+.button--color--purpur {
+  background: #8F00FF;
+  color: #fff;
+}

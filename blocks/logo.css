@@ -1,0 +1,13 @@
+.logo {
+  display: block;
+  margin-right: 261px;
+}
+.logo__footer {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 57px;
+}
+.central__logo {
+  margin-bottom: 6px;
+}

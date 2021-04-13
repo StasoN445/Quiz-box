@@ -1,0 +1,11 @@
+.separator  {
+  background: #17191C url(/img/19629\ 1.png) right 22% bottom no-repeat;
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.separator__content {
+  max-width: 40%;
+}

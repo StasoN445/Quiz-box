@@ -1,0 +1,15 @@
+.services {
+  margin-bottom: 68px;
+}
+.service {
+  display: flex;
+  margin-bottom: 42px;
+}
+.service__content {
+  flex: 1;
+}
+.service__desc {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 33px;
+}

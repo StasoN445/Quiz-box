@@ -1,0 +1,19 @@
+.welcome {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url(/img/nbgB77C1HAg\ 1\ \(1\).png) center bottom / cover no-repeat;
+}
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: bounce 1.1s ease;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}

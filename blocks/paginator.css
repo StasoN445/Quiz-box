@@ -1,0 +1,48 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination .paginator__link:hover {
+  color: #FFFFFF;
+  background: #8F00FF;
+}
+.pagination--theme--black {
+  color: #000000;
+}
+.pagination--theme--black .paginator__item--active .paginator__link {
+ color: #FFFFFF;
+ background: #8F00FF;
+}
+.pagination--theme--black .paginator__link:hover {
+  color: #FFFFFF;
+  background: #8F00FF;
+}
+.pagination__list {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+.pagination__info {
+    position: relative;
+    right: 27px;
+}
+.paginator__item {
+  text-align: center;
+}
+.paginator__link {
+  width: 32px;
+  height: 32px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+}
+.paginator__item--active .paginator__link {
+  background: #8F00FF;
+}
+.pagination--reviews {
+  margin-bottom: 86px;
+}
