@@ -1,7 +1,7 @@
 .work__dropdown {
   position: absolute;
-  top: 31px;
-  right: 0;
+  top: 84px;
+  right: 140px;
   padding: 14px 17px;
   background: #EDEDED;
   opacity: 0;
@@ -34,4 +34,7 @@
 }
 .work__btn {
   font-style: normal;
+  position: relative;
+  top: -10px;
+  display: inline-block;
 }
