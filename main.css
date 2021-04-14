@@ -24,9 +24,4 @@
 @import url(./blocks/service.css);
 @import url(./blocks/title.css);
 @import url(./blocks/welcome.css);
-/*.dropdown__menu::after {
-    content:"";
-    position: absolute;
-    border: 16px solid transparent;
-    border-bottom: 20px solid #E7E2E2;
-}*/
+
