@@ -26,6 +26,7 @@
 }
 .review__user:hover {
   color: #2E77A4;
+  transition: 0.3s;
 }
 .review__tags {
   display: flex;

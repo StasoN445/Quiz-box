@@ -15,6 +15,7 @@
 .button:hover {
   background: #8F00FF;
   color: #FFFFFF;
+  transition: 0.3s;
 }
 .button__offers {
   background: #8F00FF;
@@ -47,6 +48,7 @@
 }
 .button--color--black:hover{
   color: #2B2B2B;
+  transition: 0.3s;
 }
 .form__button {
   margin-right: 17px;

@@ -31,10 +31,14 @@
 .work:hover .work__dropdown {
   opacity: 0.8;
   pointer-events: all;
+  transition: 0.3s;
 }
 .work__btn {
   font-style: normal;
   position: relative;
   top: -10px;
   display: inline-block;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: pointer;
 }
