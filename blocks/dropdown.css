@@ -1,7 +1,10 @@
+.work {
+  position: relative;
+}
 .work__dropdown {
   position: absolute;
-  top: 84px;
-  right: 140px;
+  top: 21px;
+  right: 0px;
   padding: 14px 17px;
   background: #EDEDED;
   opacity: 0;

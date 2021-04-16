@@ -3,6 +3,10 @@
   column-gap: 27px;
   margin-bottom: 76px;
 }
+.form__input:focus {
+  background: #FFFFFF;
+  border:1px solid #8F00FF;
+}
 .review {
   display: inline-flex;
   flex-direction: column;
@@ -20,7 +24,7 @@
   color: #1A1B1E;
   margin-bottom: 3px; 
 }
-.review__user::after {
+.review__user:after {
   content: url(../img/vk-blue\ 1.png);
   height: 32px;
 }
